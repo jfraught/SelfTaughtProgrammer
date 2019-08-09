@@ -52,8 +52,6 @@ def stringToFloat(stringFloat):
     :param stringFloat: str.
     """
     try:
-        float(stringFloat)
+        return float(stringFloat)
     except ValueError:
         print("Invalid input")
-    return floatFromString
-    

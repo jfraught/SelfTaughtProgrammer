@@ -3,6 +3,7 @@ def squared(x):
     """
     Returns x squared
     :param x: int.
+    :return: int.
     """
     return x ** 2 
 
@@ -23,6 +24,7 @@ def threeRequiredTwoOptional(x, y, z, a=1, b=2):
     :param z: int.
     :param a: int.
     :param b: int.
+    :return: int.
     """
     return x + y + z + a + b
 
@@ -32,6 +34,7 @@ def divide(x, y):
     Returns x / y
     :param x: int.
     :param y: int.
+    :return: int.
     """
     return x / y
 
@@ -50,6 +53,7 @@ def stringToFloat(stringFloat):
     """
     Returns float
     :param stringFloat: str.
+    :return: string.
     """
     try:
         return float(stringFloat)
